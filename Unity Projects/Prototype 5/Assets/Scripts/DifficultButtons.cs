@@ -6,6 +6,7 @@ public class DifficultButtons : MonoBehaviour
 {
     private Button button;
     private GameManager gameManager;
+    public int difficult;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,6 @@ public class DifficultButtons : MonoBehaviour
     void SetDifficult()
     {
         Debug.Log(button.gameObject.name);
-        gameManager.StartGame(); 
+        gameManager.StartGame(difficult); 
     }
 }

@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
     public bool isGameActive;
     public ParticleSystem explosion2;
     public Button restart;
+    public GameObject titleScreen;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -111,14 +113,16 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void StartGame()
+    public void StartGame(int difficult)
     {
+        spawnRate /= difficult;
         StartCoroutine(Spawn());
         score = 0;
         scoreText.text = "" + score;
         scoreTextShadow.text = "" + score;
         UpdateScore(0);
         isGameActive = true;
+        titleScreen.gameObject.SetActive(false);
     }
 
 }
