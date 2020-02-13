@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody playerRb;
     public float speed = 5.0f;
     private GameObject focalPoint;
-    private float powerUpStrength = 6.0f;
+    private float powerUpStrength = 6.7f;
     public bool hasPowerup;
     public GameObject powerupIndicator;
     // Start is called before the first frame update
@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
 
      IEnumerator PowerupCountdownRoutine() 
      {
-         yield return new WaitForSeconds(7);
+         yield return new WaitForSeconds(8);
          hasPowerup = false;
          powerupIndicator.gameObject.SetActive(false);
      }
