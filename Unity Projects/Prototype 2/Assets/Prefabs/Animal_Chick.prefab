@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1801781838545979174
+--- !u!1 &398151322663730759
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,7 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1801781838546345212}
+  - component: {fileID: 5648797042700319870}
   m_Layer: 0
   m_Name: ChickRig_r_Leg_AuxSHJnt
   m_TagString: Untagged
@@ -16,22 +16,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1801781838546345212
+--- !u!4 &5648797042700319870
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801781838545979174}
+  m_GameObject: {fileID: 398151322663730759}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: -0.4116843, z: -0.16573212}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1801781838546453516}
-  m_Father: {fileID: 1801781838546439540}
+  - {fileID: 8808889723848031165}
+  m_Father: {fileID: 4443767872777276821}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1801781838545985160
+--- !u!1 &1944382931824531552
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1801781838546445428}
+  - component: {fileID: 6957153494099422687}
   m_Layer: 0
   m_Name: ChickRig_Head_AuxSHJnt
   m_TagString: Untagged
@@ -47,21 +47,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1801781838546445428
+--- !u!4 &6957153494099422687
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801781838545985160}
+  m_GameObject: {fileID: 1944382931824531552}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 1.0184441, z: 1.1631199}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1801781838546439540}
+  m_Father: {fileID: 4443767872777276821}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1801781838545987580
+--- !u!1 &3988111235926743263
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -69,39 +69,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1801781838546408588}
-  m_Layer: 0
-  m_Name: ChickRig_l_Leg_AuxSHJnt
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1801781838546408588
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801781838545987580}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: -0.4116843, z: -0.16573212}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1801781838546355190}
-  m_Father: {fileID: 1801781838546439540}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1801781838545994154
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1801781838546387098}
-  - component: {fileID: 1801781838551437684}
+  - component: {fileID: 7176844518620528395}
+  - component: {fileID: 6867580815461898699}
   m_Layer: 0
   m_Name: SA_Animal_Chick
   m_TagString: Untagged
@@ -109,27 +78,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1801781838546387098
+--- !u!4 &7176844518620528395
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801781838545994154}
+  m_GameObject: {fileID: 3988111235926743263}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1801781838546452190}
+  m_Father: {fileID: 7572918984846243714}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &1801781838551437684
+--- !u!137 &6867580815461898699
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801781838545994154}
+  m_GameObject: {fileID: 3988111235926743263}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -166,20 +135,20 @@ SkinnedMeshRenderer:
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 4300000, guid: 5cffd02f329556b48a122caf2426df2f, type: 3}
   m_Bones:
-  - {fileID: 1801781838546439540}
-  - {fileID: 1801781838546408588}
-  - {fileID: 1801781838546355190}
-  - {fileID: 1801781838546345212}
-  - {fileID: 1801781838546453516}
-  - {fileID: 1801781838546462996}
-  - {fileID: 1801781838546445428}
+  - {fileID: 4443767872777276821}
+  - {fileID: 2099386037266371860}
+  - {fileID: 116714212606367271}
+  - {fileID: 5648797042700319870}
+  - {fileID: 8808889723848031165}
+  - {fileID: 8323437988725098014}
+  - {fileID: 6957153494099422687}
   m_BlendShapeWeights: []
-  m_RootBone: {fileID: 1801781838546439540}
+  m_RootBone: {fileID: 4443767872777276821}
   m_AABB:
     m_Center: {x: -0.0000023841858, y: -0.34530044, z: 0.24290848}
     m_Extent: {x: 1.6054511, y: 2.9824944, z: 3.8762627}
   m_DirtyAABB: 0
---- !u!1 &1801781838546002478
+--- !u!1 &4669110783622640348
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -187,7 +156,99 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1801781838546355190}
+  - component: {fileID: 2682147826645781738}
+  m_Layer: 0
+  m_Name: ChickRig_SHJntGrp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2682147826645781738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4669110783622640348}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4443767872777276821}
+  m_Father: {fileID: 7572918984846243714}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4880112876365876225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2099386037266371860}
+  m_Layer: 0
+  m_Name: ChickRig_l_Leg_AuxSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2099386037266371860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4880112876365876225}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1, y: -0.4116843, z: -0.16573212}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 116714212606367271}
+  m_Father: {fileID: 4443767872777276821}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6009742781227493679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8323437988725098014}
+  m_Layer: 0
+  m_Name: ChickRig_Tail_AuxSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8323437988725098014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6009742781227493679}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.5057544, z: -1.851313}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4443767872777276821}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6610181146608595657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 116714212606367271}
   m_Layer: 0
   m_Name: ChickRig_FootL_AuxSHJnt
   m_TagString: Untagged
@@ -195,21 +256,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1801781838546355190
+--- !u!4 &116714212606367271
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801781838546002478}
+  m_GameObject: {fileID: 6610181146608595657}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: -2.634574, z: 0.13427612}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1801781838546408588}
+  m_Father: {fileID: 2099386037266371860}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1801781838546003494
+--- !u!1 &7131381234632993759
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -217,12 +278,12 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1801781838546452190}
-  - component: {fileID: 1801781838555406224}
-  - component: {fileID: 8419638376125486231}
-  - component: {fileID: 6727753934029814558}
-  - component: {fileID: 65259958460153880}
-  - component: {fileID: 114755483632645552}
+  - component: {fileID: 7572918984846243714}
+  - component: {fileID: 5202431877947784112}
+  - component: {fileID: 2288208247576335194}
+  - component: {fileID: 5081524297871434614}
+  - component: {fileID: 1241526560890059370}
+  - component: {fileID: 2765551561101745879}
   m_Layer: 0
   m_Name: Animal_Chick
   m_TagString: Untagged
@@ -230,30 +291,30 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1801781838546452190
+--- !u!4 &7572918984846243714
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801781838546003494}
+  m_GameObject: {fileID: 7131381234632993759}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -6.670425, z: 18}
   m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
   m_Children:
-  - {fileID: 1801781838546429226}
-  - {fileID: 1801781838546387098}
+  - {fileID: 2682147826645781738}
+  - {fileID: 7176844518620528395}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!95 &1801781838555406224
+--- !u!95 &5202431877947784112
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801781838546003494}
+  m_GameObject: {fileID: 7131381234632993759}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 5cffd02f329556b48a122caf2426df2f, type: 3}
   m_Controller: {fileID: 9100000, guid: fcb5ec06ce1a1d0468b35327576bb69a, type: 2}
@@ -265,57 +326,57 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &8419638376125486231
+--- !u!114 &2288208247576335194
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801781838546003494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2d8e2d38610d3d4b9d5ae089e1c5f9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &6727753934029814558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801781838546003494}
+  m_GameObject: {fileID: 7131381234632993759}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ee3133b4aad00a4439809c366074b40c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
---- !u!65 &65259958460153880
+--- !u!65 &5081524297871434614
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801781838546003494}
+  m_GameObject: {fileID: 7131381234632993759}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4.125, y: 22.08391, z: 9.307791}
   m_Center: {x: 0.03285292, y: 10.541956, z: 0.069880486}
---- !u!114 &114755483632645552
+--- !u!114 &1241526560890059370
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801781838546003494}
+  m_GameObject: {fileID: 7131381234632993759}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 91d1fc762a54d9c44b3d2591e7a2449b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1801781838546150968
+--- !u!114 &2765551561101745879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7131381234632993759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &7205460418507452717
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -323,7 +384,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1801781838546453516}
+  - component: {fileID: 8808889723848031165}
   m_Layer: 0
   m_Name: ChickRig_FootR_AuxSHJnt
   m_TagString: Untagged
@@ -331,21 +392,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1801781838546453516
+--- !u!4 &8808889723848031165
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801781838546150968}
+  m_GameObject: {fileID: 7205460418507452717}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: -2.634574, z: 0.13427612}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1801781838546345212}
+  m_Father: {fileID: 5648797042700319870}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1801781838546165272
+--- !u!1 &8808526357128045188
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -353,7 +414,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1801781838546439540}
+  - component: {fileID: 4443767872777276821}
   m_Layer: 0
   m_Name: ChickRig_ROOTSHJnt
   m_TagString: Untagged
@@ -361,82 +422,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1801781838546439540
+--- !u!4 &4443767872777276821
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801781838546165272}
+  m_GameObject: {fileID: 8808526357128045188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 3.3277948, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1801781838546445428}
-  - {fileID: 1801781838546408588}
-  - {fileID: 1801781838546345212}
-  - {fileID: 1801781838546462996}
-  m_Father: {fileID: 1801781838546429226}
+  - {fileID: 6957153494099422687}
+  - {fileID: 2099386037266371860}
+  - {fileID: 5648797042700319870}
+  - {fileID: 8323437988725098014}
+  m_Father: {fileID: 2682147826645781738}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1801781838546194308
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1801781838546429226}
-  m_Layer: 0
-  m_Name: ChickRig_SHJntGrp
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1801781838546429226
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801781838546194308}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1801781838546439540}
-  m_Father: {fileID: 1801781838546452190}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1801781838546196336
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1801781838546462996}
-  m_Layer: 0
-  m_Name: ChickRig_Tail_AuxSHJnt
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1801781838546462996
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801781838546196336}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.5057544, z: -1.851313}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1801781838546439540}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
