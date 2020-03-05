@@ -1,34 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class SpawnManagerX : MonoBehaviour
-{
-    public GameObject[] objectPrefabs;
-    private float spawnDelay = 2;
-    private float spawnInterval = 1.5f;
-
-    private PlayerControllerX playerControllerScript;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        InvokeRepeating("SpawnObjects", spawnDelay, spawnInterval);
-        playerControllerScript = GameObject.Find("Player").GetComponent<PlayerControllerX>();
-    }
-
-    // Spawn obstacles
-    void SpawnObjects ()
-    {
-        // Set random spawn location and random object index
-        Vector3 spawnLocation = new Vector3(30, Random.Range(5, 15), 0);
-        int index = Random.Range(0, objectPrefabs.Length);
-
-        // If game is still active, spawn new object
-        if (!playerControllerScript.gameOver)
-        {
-            Instantiate(objectPrefabs[index], spawnLocation, objectPrefabs[index].transform.rotation);
-        }
-
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a3d50adfc60ece3be3d38f84656c29a8004cbdc1741c7229ddcd1be14702244
+size 1021

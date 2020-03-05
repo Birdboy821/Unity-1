@@ -1,28 +1,3 @@
-Shader "ProBuilder/Diffuse Vertex Color" {
-  Properties {
-    _MainTex ("Texture", 2D) = "white" {}
-  }
-  SubShader {
-    Tags { "RenderType" = "Opaque" }
-
-    ColorMask RGB
-
-    CGPROGRAM
-    #pragma surface surf Lambert
-
-    sampler2D _MainTex;
-
-    struct Input {
-        float4 color : COLOR;
-        float2 uv_MainTex;
-    };
-
-    void surf (Input IN, inout SurfaceOutput o) {
-        fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * IN.color;
-        o.Albedo = c.rgb;
-    }
-    ENDCG
-  }
-
-  Fallback "Diffuse"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:86ea2ffc63642e4326514ca6c7ee70f6ec5ee1484dac820c1db5c2f56a061524
+size 514

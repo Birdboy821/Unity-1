@@ -1,17 +1,3 @@
-using UnityEditor;
-using UnityEngine;
-using ProBuilder2.MeshOperations;
-using System.Collections.Generic;
-using System.Linq;
-using ProBuilder2.Common;
-using ProBuilder2.EditorCommon;
-
-namespace ProBuilder2.Actions
-{
-	/**
-	 * Deprecated as of 2.6.0.
-	 * This file remains only for backwards compatibility; you may
-	 * safely delete it.
-	 */
-	public class pb_EdgeSelection : Editor {}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a24eaa83b24c685ab39eed93084be15a21cedd08573202606cbb3ae3653708f
+size 385

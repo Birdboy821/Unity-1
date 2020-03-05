@@ -1,4 +1,3 @@
-sceneSetups:
-- path: Assets/Challenge 4/Challenge 4.unity
-  isLoaded: 1
-  isActive: 1
+version https://git-lfs.github.com/spec/v1
+oid sha256:9787fa3ffe878a8d0fd67f60f3c57545efb2f3e7092e5e211b8eebed6c4dd98f
+size 86

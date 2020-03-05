@@ -1,21 +1,3 @@
-// Thanks to forum member @Igmon for this feature suggestion:
-// http://www.sixbysevenstudio.com/forum/viewtopic.php?f=14&t=2374&p=4351#p4351
-
-using UnityEngine;
-using UnityEditor;
-using System.Collections;
-using System.Collections.Generic;
-using ProBuilder2.Common;
-using ProBuilder2.EditorCommon;
-
-namespace ProBuilder2.Actions
-{
-	/**
-	 * Menu interface for inverting the current element selection.
-	 *
-	 * Deprecated as of 2.6.0.
-	 * This file remains only for backwards compatibility; you may
-	 * safely delete it.
-	 */
-	public class pb_InvertSelection : Editor {}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:45a1c50d8e1ccd7eff9362b17cdab38e67d580e9f32f9aaf9e0ece9b4de4c3f5
+size 571

@@ -1,19 +1,3 @@
-using UnityEditor;
-using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
-using ProBuilder2.Common;
-using ProBuilder2.EditorCommon;
-using System.Linq;
-
-namespace ProBuilder2.Actions
-{
-	/**
-	 * Menu actions for selecting faces with a material or vertex color.
-	 *
-	 * Deprecated as of 2.6.0.
-	 * This file remains only for backwards compatibility; you may
-	 * safely delete it.
-	 */
-	public class pb_MaterialSelection : Editor {}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed25bf800d8dcd6c697d1fdee82467344ac82310eda750ad1dc7aa8c28696741
+size 455

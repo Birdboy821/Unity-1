@@ -1,19 +1,3 @@
-Thank you for purchasing and installing ProBuilder! Your support allows us to continue improving these tools, and adding new ones.
-
-Helpful Links:
-
-1) Video tutorial series at http://www.youtube.com/playlist?list=PLrJfHfcFkLM8PDioWg_5nmUqQycnVmi58
-
-2) Having any issues? Post to the official forum at www.procore3d.com/forum
-
-3) Documentation at www.procore3d.com/docs/probuilder
-
-Keep in-touch, and help spread the word!
-
-Twitter: @ProBuilder3D
-Facebook: facebook.com/probuilder3d
-Email: contact@procore3d.com
-
-Best,
-Gabriel W
-Karl H
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a4beec6eb8b605266cb9b5019e62ce435ed8988de472f55a64c3f6512a12022
+size 534

@@ -1,17 +1,3 @@
-#if !PROTOTYPE
-using UnityEngine;
-using UnityEditor;
-using System.Collections;
-using ProBuilder2.EditorCommon;
-
-namespace ProBuilder2.Actions
-{
-
-	/**
-	 * Deprecated as of 2.6.0.
-	 * This file remains only for backwards compatibility; you may
-	 * safely delete it.	 
-	 */
-	public class pb_ProBuilderMenuItems : Editor {}
-}
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c3850201c5283a3328b0e6fc8900e924f36eadf24ab525aaeeecad0f646fed9
+size 329

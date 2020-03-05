@@ -1,20 +1,3 @@
-#if !PROTOTYPE
-using UnityEngine;
-using UnityEditor;
-using System.Collections;
-using System.Collections.Generic;
-using ProBuilder2.MeshOperations;
-using ProBuilder2.Common;
-using ProBuilder2.EditorCommon;
-using System.Linq;
-
-namespace ProBuilder2.Actions
-{
-	/**
-	 * Deprecated as of 2.6.0.
-	 * This file remains only for backwards compatibility; you may
-	 * safely delete it.
-	 */
-	public class pb_ConnectEdges : Editor {}
-}
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:a7aa08284f359e0fd54bd3b6f9734c7fec7f002b92d1a139edd1072dbfcdaa83
+size 432

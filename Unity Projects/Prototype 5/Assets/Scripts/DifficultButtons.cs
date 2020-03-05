@@ -1,29 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-public class DifficultButtons : MonoBehaviour
-{
-    private Button button;
-    private GameManager gameManager;
-    public int difficult;
-    // Start is called before the first frame update
-    void Start()
-    {
-        button = GetComponent<Button>();
-        button.onClick.AddListener(SetDifficult);
-        gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    void SetDifficult()
-    {
-        Debug.Log(button.gameObject.name);
-        gameManager.StartGame(difficult); 
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f28a3945f2f9340347d6a8b4d00b1f7f278a786efa9582b4ec584400cb21bc55
+size 702

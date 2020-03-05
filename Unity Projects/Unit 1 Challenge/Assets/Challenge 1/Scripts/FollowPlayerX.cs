@@ -1,21 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class FollowPlayerX : MonoBehaviour
-{
-    public GameObject plane;
-    private Vector3 offset = new Vector3(30, 0, 10);
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        transform.position = plane.transform.position + offset;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:197750a52f8b1d0dad4c16c379154dd55d989777311dc93547cab34272fa18ee
+size 430

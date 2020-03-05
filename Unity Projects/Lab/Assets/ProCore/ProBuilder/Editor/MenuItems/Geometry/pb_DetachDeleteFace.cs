@@ -1,18 +1,3 @@
-using UnityEngine;
-using UnityEditor;
-using System.Collections;
-using ProBuilder2.MeshOperations;
-using ProBuilder2.Common;
-using ProBuilder2.EditorCommon;
-
-namespace ProBuilder2.Actions
-{
-	/**
-	 * Menu interface for deleting and detaching faces.
-	 *
-	 * Deprecated as of 2.6.0.
-	 * This file remains only for backwards compatibility; you may
-	 * safely delete it.
-	 */
-	public class pb_DetachDeleteFace : Editor {}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:25ed667f9dc8dabc71a6cda7e28c895ae6076be18612a7d8ec53afaeda8a3c80
+size 418

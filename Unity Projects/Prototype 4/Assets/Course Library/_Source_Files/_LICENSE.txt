@@ -1,4 +1,3 @@
-﻿ASSET LICENSE INFORMATION
-
-
-Assets for this project were generously provided by our partner, Synty Studios, and are not for commercial use. If you would like to use any of the assets from this package in commercial projects, please purchase one of their asset packs from Synty Studios’ Asset Store page: https://assetstore.unity.com/publishers/5217.
+version https://git-lfs.github.com/spec/v1
+oid sha256:cbc5b6d94a37c810edc7b5c5645be395c41ab52cb4b9d1f7faa7f3b397371d3f
+size 354

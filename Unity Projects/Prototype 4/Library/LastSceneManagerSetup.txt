@@ -1,4 +1,3 @@
-sceneSetups:
-- path: Assets/Scenes/Prototype 4.unity
-  isLoaded: 1
-  isActive: 1
+version https://git-lfs.github.com/spec/v1
+oid sha256:e16edcf46ce4837401ec9afd308188b66ed513e1e2097c2df8b8ba3a3ab2ae28
+size 81

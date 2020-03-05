@@ -1,4 +1,3 @@
-sceneSetups:
-- path: Assets/Scenes/My Game.unity
-  isLoaded: 1
-  isActive: 1
+version https://git-lfs.github.com/spec/v1
+oid sha256:b9d161cef9df93b046c7724df8240bf9cae7533578f5183a08f47ad4c4d59b25
+size 77

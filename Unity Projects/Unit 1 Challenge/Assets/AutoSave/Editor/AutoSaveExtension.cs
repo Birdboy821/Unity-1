@@ -1,26 +1,3 @@
-﻿using UnityEditor;
-using UnityEngine;
-
-namespace EckTechGames
-{
-	[InitializeOnLoad]
-	public class AutoSaveExtension
-	{
-		// Static constructor that gets called when unity fires up.
-		static AutoSaveExtension()
-		{
-			EditorApplication.playmodeStateChanged += AutoSaveWhenPlaymodeStarts;
-		}
-
-		private static void AutoSaveWhenPlaymodeStarts()
-		{
-			// If we're about to run the scene...
-			if (EditorApplication.isPlayingOrWillChangePlaymode && !EditorApplication.isPlaying)
-			{
-				// Save the scene and the assets.
-				EditorApplication.SaveScene();
-				AssetDatabase.SaveAssets();
-			}
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:afe09903d3eee8ccb7d499f213d9d55251baf55f8fb34d2ce65554b1710d0ed4
+size 602

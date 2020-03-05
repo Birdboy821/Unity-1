@@ -1,20 +1,3 @@
-/**
-*  @ Matt1988
-*  This extension was built by @Matt1988
-*/
-using UnityEngine;
-using UnityEditor;
-using System.Collections;
-using System.Collections.Generic;
-using ProBuilder2.Common;
-using ProBuilder2.EditorCommon;
-
-namespace ProBuilder2.Actions
-{
-	/**
-	 * Deprecated as of 2.6.0.
-	 * This file remains only for backwards compatibility; you may
-	 * safely delete it.
-	 */
-	public class pb_SetPivot : Editor {}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f20c0eda125cc6257d9aa4f4f8c4778e9245f1218743640b76c893f09abb9156
+size 415

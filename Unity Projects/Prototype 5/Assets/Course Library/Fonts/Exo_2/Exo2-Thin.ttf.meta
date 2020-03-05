@@ -1,22 +1,3 @@
-fileFormatVersion: 2
-guid: 409f4048a2425400dbf8cf0fb9eb0f24
-TrueTypeFontImporter:
-  externalObjects: {}
-  serializedVersion: 4
-  fontSize: 16
-  forceTextureCase: -2
-  characterSpacing: 0
-  characterPadding: 1
-  includeFontData: 1
-  fontName: Exo 2 Thin
-  fontNames:
-  - Exo 2 Thin
-  fallbackFontReferences: []
-  customCharacters: 
-  fontRenderingMode: 0
-  ascentCalculationMode: 1
-  useLegacyBoundsCalculation: 0
-  shouldRoundAdvanceValue: 1
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:fde64357e5ad089c73d5f5eb07a63fdbb191a948b15312f0f315a1f03032b0ef
+size 498

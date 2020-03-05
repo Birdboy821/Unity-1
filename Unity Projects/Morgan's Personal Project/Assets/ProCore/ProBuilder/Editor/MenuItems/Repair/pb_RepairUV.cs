@@ -1,9 +1,3 @@
-namespace ProBuilder2.Actions
-{
-	/**
-	 *	File stub retained for backwards compatibility.
-	 *	You may safely delete this file.
-	 */
-	[System.Obsolete]
-	static class pb_RepairUV {}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:52bee91815ce19542ab87d50874845966d14e94f8934f231fd3bb4b041dfaa60
+size 181

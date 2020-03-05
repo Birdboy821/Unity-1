@@ -1,22 +1,3 @@
-fileFormatVersion: 2
-guid: ad3f5403e751f4b52afb38e1ac599222
-TrueTypeFontImporter:
-  externalObjects: {}
-  serializedVersion: 4
-  fontSize: 16
-  forceTextureCase: -2
-  characterSpacing: 0
-  characterPadding: 1
-  includeFontData: 1
-  fontName: Exo 2 Extra Bold
-  fontNames:
-  - Exo 2 Extra Bold
-  fallbackFontReferences: []
-  customCharacters: 
-  fontRenderingMode: 0
-  ascentCalculationMode: 1
-  useLegacyBoundsCalculation: 0
-  shouldRoundAdvanceValue: 1
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:18059daad89136660c2def563506405ac94b7a5d04d3e752986d25e6c7890254
+size 510

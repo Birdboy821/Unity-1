@@ -1,27 +1,3 @@
-Shader "Simple/Unlit Vertex Color_Alpha" 
-{
-
-Properties {
-    _MainTex ("Base (RGB)", 2D) = "white" {}
-}
-
-SubShader 
-{
-   	   Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent" }
-	   Lighting Off ZWrite Off Fog { Mode Off }
-	   //Blend SrcAlpha OneMinusSrcAlpha
-
-  
-	BindChannels {
-		Bind "Color", color
-		Bind "Vertex", vertex
-		Bind "texcoord", texcoord
-	}
-   
-   Pass {
-        ColorMaterial AmbientAndDiffuse
-        SetTexture [_MainTex] {Combine texture * primary
-        }
-    }
-}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e23be0ea8a59280877217127ce46ad63c86d30b2def644661897397e983088c
+size 519

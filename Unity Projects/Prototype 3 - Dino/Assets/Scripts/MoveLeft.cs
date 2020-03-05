@@ -1,29 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class MoveLeft : MonoBehaviour
-{
-    private PlayerController playerControllerScript;
-    private float speed = 30;
-    private float leftBound = -15;
-    private float lowerBound = -5;
-    // Start is called before the first frame update
-    void Start()
-    {
-        playerControllerScript = GameObject.Find("dino").GetComponent<PlayerController>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (playerControllerScript.gameOver == false)
-        {
-             transform.Translate(Vector3.left * Time.deltaTime * speed);
-        }
-        if(transform.position.x < leftBound || transform.position.y < lowerBound && gameObject.CompareTag("Obstacle"))
-        {
-            Destroy(gameObject);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1af2ebbeb099f34b6852c9f10413215a9fdc1e6583e4cc4c25a5bf0cad1b8193
+size 840

@@ -1,20 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class SpinPropellerX : MonoBehaviour
-{
-    public float rotationSpeed = 50;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        transform.Rotate(Vector3.forward * rotationSpeed);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2d01c9eac7a56e0fd95440dbdafa206fadc9809e49b614a6ce06f4fa0e33068
+size 389

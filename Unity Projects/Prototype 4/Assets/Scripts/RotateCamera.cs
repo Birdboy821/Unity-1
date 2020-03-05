@@ -1,20 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class RotateCamera : MonoBehaviour
-{
-    public float rotationSpeed;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        float horizontal = Input.GetAxis("Horizontal");
-        transform.Rotate(Vector3.up, horizontal * rotationSpeed * Time.deltaTime);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f64ca73c4b43019fa17f7dc6a2217ec49d7b640c777095f379b06ff20db5e28a
+size 461

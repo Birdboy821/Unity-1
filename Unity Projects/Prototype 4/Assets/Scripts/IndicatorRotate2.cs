@@ -1,19 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class IndicatorRotate2 : MonoBehaviour
-{
-    public float speed = 125.0f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        transform.Rotate(Vector3.up, speed * Time.deltaTime);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7fa53a855b6955faedd08d63ef4366ad12d0b299209871c987dd0b6d84dd6a6
+size 389

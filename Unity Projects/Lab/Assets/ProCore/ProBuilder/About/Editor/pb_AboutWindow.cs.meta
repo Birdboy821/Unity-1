@@ -1,13 +1,3 @@
-fileFormatVersion: 2
-guid: fca06bdb2c29e7344b757645530b0eff
-timeCreated: 1485893835
-licenseType: Store
-MonoImporter:
-  serializedVersion: 2
-  defaultReferences:
-  - gravityFont: {fileID: 12800000, guid: 28ed1153d48f34485be1063881729e18, type: 3}
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:f7e12a40055effcb0155e88dc9043e890e5a301da6651f49b332fd9c5a347d2c
+size 346

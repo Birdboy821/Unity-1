@@ -1,18 +1,3 @@
-using UnityEngine;
-using UnityEditor;
-using System.Collections;
-using ProBuilder2.Common;
-using ProBuilder2.EditorCommon;
-using ProBuilder2.MeshOperations;
-
-namespace ProBuilder2.Actions
-{
-	/**
-	 * Menu interface for extruding elements.
-	 *
-	 * Deprecated as of 2.6.0.
-	 * This file remains only for backwards compatibility; you may
-	 * safely delete it.
-	 */
-	public class pb_ExtrudeElement : Editor {}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:43573fe1c926e0d11f425daca8175e7e729056e56e81d00401b2abc5c3712a24
+size 406

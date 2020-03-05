@@ -1,17 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class DetectCollisions : MonoBehaviour
-{
-    void OnTriggerEnter(Collider other)
-    {
-        // Instead of destroying the projectile when it collides with an animal
-        //Destroy(other.gameObject); 
-
-        // Just deactivate the food and destroy the animal
-        other.gameObject.SetActive(false);
-        Destroy(gameObject);
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac24db555212067cae1f9700d94b331741b6e30ecfed32bf1c7ee44208b3c473
+size 436

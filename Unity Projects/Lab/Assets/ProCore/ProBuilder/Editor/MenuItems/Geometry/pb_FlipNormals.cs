@@ -1,18 +1,3 @@
-using UnityEngine;
-using UnityEditor;
-using System.Collections;
-using ProBuilder2.MeshOperations;
-using ProBuilder2.Common;
-using ProBuilder2.EditorCommon;
-
-namespace ProBuilder2.Actions
-{
-	/**
-	 * Menu interface for flip normals actions.
-	 *
-	 * Deprecated as of 2.6.0.
-	 * This file remains only for backwards compatibility; you may
-	 * safely delete it.
-	 */
-	public class pb_FlipNormals : Editor {}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e67610b735433e7dba02b74953165657c15de2efee4c7f1519b1d3fa1965b2b
+size 405

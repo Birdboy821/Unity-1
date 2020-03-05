@@ -1,36 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class SpawnManager : MonoBehaviour
-{
-    public GameObject[ ] obstaclePrefab;
-    private Vector3 spawnPos = new Vector3(50,0.2f,0);
-    private PlayerController playerControllerScript;
-    private float startDelay = 2;
-    private float repeatRate;
-    // Start is called before the first frame update
-    void Start()
-    {
-        repeatRate = Random.Range(1, 4);
-        playerControllerScript = GameObject.Find("dino").GetComponent<PlayerController>();
-        InvokeRepeating("SpawnObstacle", startDelay, repeatRate);
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    void SpawnObstacle ()
-    {
-        int obstacleIndex = Random.Range(0, obstaclePrefab.Length);
-        if (playerControllerScript.gameOver == false)
-        {
-        Instantiate(obstaclePrefab[obstacleIndex], spawnPos, obstaclePrefab[obstacleIndex].transform.rotation);
-        }
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d01d4367be10e3c3f8a96cc321ab7834e7bc63da77a51396e5af372ee913f00
+size 1004

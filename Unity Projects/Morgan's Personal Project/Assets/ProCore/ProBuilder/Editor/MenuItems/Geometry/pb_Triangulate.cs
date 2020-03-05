@@ -1,18 +1,3 @@
-﻿using UnityEngine;
-using UnityEditor;
-using System.Collections;
-using ProBuilder2.Common;
-using ProBuilder2.EditorCommon;
-using ProBuilder2.MeshOperations;
-
-namespace ProBuilder2.Actions
-{
-	/**
-	 * Triangulates a ProBuilder object.
-	 *
-	 * Deprecated as of 2.6.0.
-	 * This file remains only for backwards compatibility; you may
-	 * safely delete it.
-	 */
-	public class pb_Triangulate : Editor {}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cde697d345fa6b8d58818265e1b09300e44dfe9a6a74daacce2b5d95fb8440d3
+size 401
