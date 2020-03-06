@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1a97fa5731611b7b73ba518284badd2ac883cf61061caf554539e2231d867af5
-size 995
+# Unity Package Manager UI
+
+[![](https://badges.cds.internal.unity3d.com/packages/com.unity.package-manager-ui/build-badge.svg?branch=2018.3%2Fstaging)](https://badges.cds.internal.unity3d.com/packages/com.unity.package-manager-ui/build-info?branch=2018.3%2Fstaging) [![](https://badges.cds.internal.unity3d.com/packages/com.unity.package-manager-ui/dependencies-badge.svg?branch=2018.3%2Fstaging)](https://badges.cds.internal.unity3d.com/packages/com.unity.package-manager-ui/dependencies-info?branch=2018.3%2Fstaging) [![](https://badges.cds.internal.unity3d.com/packages/com.unity.package-manager-ui/dependants-badge.svg)](https://badges.cds.internal.unity3d.com/packages/com.unity.package-manager-ui/dependants-info) ![ReleaseBadge](https://badges.cds.internal.unity3d.com/packages/com.unity.package-manager-ui/release-badge.svg) ![ReleaseBadge](https://badges.cds.internal.unity3d.com/packages/com.unity.package-manager-ui/candidates-badge.svg)
+
+Unity Package Manager UI as a Unity Package
