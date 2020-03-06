@@ -1,3 +1,67 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:904241393a03e3c1b548f49a685d10e2bfdf9763126ec58a2cee7f1f99ef5334
-size 1492
+﻿/*
+ *  Author: ariel oliveira [o.arielg@gmail.com]
+ */
+
+using UnityEngine;
+
+public class PlayerStats : MonoBehaviour
+{
+    public delegate void OnHealthChangedDelegate();
+    public OnHealthChangedDelegate onHealthChangedCallback;
+
+    #region Sigleton
+    private static PlayerStats instance;
+    public static PlayerStats Instance
+    {
+        get
+        {
+            if (instance == null)
+                instance = FindObjectOfType<PlayerStats>();
+            return instance;
+        }
+    }
+    #endregion
+
+    [SerializeField]
+    private float health;
+    [SerializeField]
+    private float maxHealth;
+    [SerializeField]
+    private float maxTotalHealth;
+
+    public float Health { get { return health; } }
+    public float MaxHealth { get { return maxHealth; } }
+    public float MaxTotalHealth { get { return maxTotalHealth; } }
+
+    public void Heal(float health)
+    {
+        this.health += health;
+        ClampHealth();
+    }
+
+    public void TakeDamage(float dmg)
+    {
+        health -= dmg;
+        ClampHealth();
+    }
+
+    public void AddHealth()
+    {
+        if (maxHealth < maxTotalHealth)
+        {
+            maxHealth += 1;
+            health = maxHealth;
+
+            if (onHealthChangedCallback != null)
+                onHealthChangedCallback.Invoke();
+        }   
+    }
+
+    void ClampHealth()
+    {
+        health = Mathf.Clamp(health, 0, maxHealth);
+
+        if (onHealthChangedCallback != null)
+            onHealthChangedCallback.Invoke();
+    }
+}

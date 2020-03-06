@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b23566fe9848d1a982223294e758ecbaf58b138e7ccb1d8490bf33f87c51ef0d
-size 86
+sceneSetups:
+- path: Assets/Challenge 5/Challenge 5.unity
+  isLoaded: 1
+  isActive: 1
