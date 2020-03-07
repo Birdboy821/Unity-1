@@ -33,7 +33,10 @@ public class SpawnManager : MonoBehaviour
     private Vector3 cameraMove;
     public GameObject focalPoint;
     private Vector3 focalMove;
+    public SimpleHealthBar bossBar;
     int islandCount = 24;
+    public int maxHealth;
+    public int currentHealth;
     // Start is called before the first frame update
     void Start()
     {
@@ -95,7 +98,10 @@ public class SpawnManager : MonoBehaviour
         }
         if (waveNumber == 10)
         {
+            bossBar.gameObject.SetActive(true);
 
+            bossOne();
+            
         }
         }
        if (isGameActive == false)
@@ -124,12 +130,14 @@ public class SpawnManager : MonoBehaviour
         if ((roundSpawnPosX == playerPosX || roundSpawnPosX <= playerPosX + 3 && roundSpawnPosX >= playerPosX -3) && (roundSpawnPosZ == playerPosZ || roundSpawnPosZ <= playerPosZ + 3 && roundSpawnPosZ >= playerPosZ - 3))
         {
             Debug.Log("Test");
+            spawnPosZ += 2;
+            spawnPosX += 2;
+
         }
-
-
         Vector3 randomPos = new Vector3(spawnPosX, 0, spawnPosZ);
         
         return randomPos;
+        
     }
     void SpawnEnemyWave(int enemiesToSpawn)
     {
@@ -147,7 +155,7 @@ public class SpawnManager : MonoBehaviour
         
         for (int i = 0; i < obstacleNum; i++)
         {
-            int obstacleType = 0;
+           
             Instantiate(obstaclePrefab, GenerateSpawnPosition(), obstaclePrefab.transform.rotation);
         }
     }
@@ -175,6 +183,14 @@ public class SpawnManager : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    void bossOne()
+    {
+        maxHealth=3;
+        currentHealth=3;
+        currentHealth -= 1;
+        bossBar.UpdateBar(currentHealth, maxHealth);
     }
 
 }

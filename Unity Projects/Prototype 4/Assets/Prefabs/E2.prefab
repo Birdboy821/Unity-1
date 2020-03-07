@@ -122,4 +122,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  spawnManager: {fileID: 0}
+  isGameActive: 1
+  playernum: 0

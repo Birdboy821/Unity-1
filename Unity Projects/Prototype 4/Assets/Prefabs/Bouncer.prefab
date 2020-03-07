@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 6266995196548236944}
   - component: {fileID: 2814924745071093667}
   - component: {fileID: 3149302144981999805}
-  - component: {fileID: 6470961719567670147}
   - component: {fileID: 3948563239063638516}
+  - component: {fileID: 3665810782526310869}
   m_Layer: 0
   m_Name: Bouncer
   m_TagString: Enemy
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 981c96a940aaa544381b0f5359ea1d72, type: 2}
+  - {fileID: 2100000, guid: 2bda73a096341a84da506feae43a1366, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -107,18 +107,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
---- !u!114 &6470961719567670147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4477131151610311427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 676433b206f79b941a9f35426588ada2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  isGameActive: 1
+  playernum: 0
 --- !u!54 &3948563239063638516
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -135,3 +125,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3665810782526310869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4477131151610311427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 145b063b8780c994b9477d33ebb28bc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

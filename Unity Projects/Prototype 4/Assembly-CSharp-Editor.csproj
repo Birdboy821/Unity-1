@@ -54,6 +54,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\AutoSaveOnRunMenuItem.cs" />
+     <Compile Include="Assets\RobotSphere\Assets\Scripts\Editor\NotificationWindow.cs" />
+     <Compile Include="Assets\Simple Health Bar\Editor\SimpleHealthBarEditor.cs" />
+     <Compile Include="Assets\Simple Health Bar\Editor\SimpleHealthBarWindow.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Student/Documents/GitHub/Unity/Unity Projects/Prototype 4/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
